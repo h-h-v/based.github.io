@@ -52,3 +52,60 @@ animation:
  typing 4s,
  cursor .4s step-end infinite alternate;
 }
+--------------------------------------------------------------------
+@media only screen and (max-with: 600px){
+ .container {display: inline-block;}
+body {background-color: black;}
+.text{
+position: absolute;
+top:15%;
+left:15%;
+color:white;
+font-size:10em;
+letter-spacing:10px;
+font-family:monospace;
+border-right: 5px solid;
+width: 100%;
+white-space:nowrap;
+overflow: hidden;
+animation:
+ typing 2s steps(14),
+ cursor .4s step-end infinite alternate;
+}
+@keyframes curosr{
+50%{ border-color: transparent}
+}
+ @keyframes typing{
+from{width: 0}
+}
+.subtext{
+position: absolute;
+top:45%;
+left:15%;
+color:white;
+font-size:5em;
+letter-spacing:10px;
+font-family:monospace;
+width: 100%;
+white-space:nowrap;
+overflow: hidden;
+animation:
+ typing 4s,
+ cursor .4s step-end infinite alternate;
+}
+.subtext1{
+position: absolute;
+top:92vh;
+left:125vh;
+color:white;
+font-size:16px;
+letter-spacing:10px;
+font-family:monospace;
+width: 100%;
+white-space:nowrap;
+overflow: hidden;
+animation:
+ typing 4s,
+ cursor .4s step-end infinite alternate;
+}
+}
