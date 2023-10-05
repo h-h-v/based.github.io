@@ -1,0 +1,69 @@
+.container{display: inline;}
+body {background-color: black;}
+.text{
+  display: block;
+  margin-top: 12%;
+  margin-left: auto;
+  margin-right: auto;
+color:white;
+font-size:12em;
+letter-spacing:5px;
+font-family:monospace;
+border-right: 5px solid;
+width: 70%;
+white-space:nowrap;
+overflow: hidden;
+animation:
+ typing 2s steps(14),
+ cursor .4s step-end infinite alternate;
+}
+
+.subtext{
+margin-left:15%;
+color:white;
+font-size:5em;
+letter-spacing:10px;
+font-family:monospace;
+width: 60%;
+}
+a{
+margin-left:47%;
+color:white;
+font-size:16px;
+letter-spacing:3px;
+font-family:monospace;
+width: 100%;
+white-space:nowrap;
+overflow: hidden;
+text-decoration:none;
+}
+.About{
+margin-top:26%;
+margin-bottom:0px;
+color:white;
+font-size:5em;
+letter-spacing:10px;
+font-family:monospace;
+width: 100%;
+white-space:nowrap;
+overflow: hidden;
+}
+.About1{
+margin-bottom:30%;
+color:white;
+font-size:3em;
+letter-spacing:10px;
+font-family:monospace;
+width: 100%;
+white-space:nowrap;
+overflow: hidden;
+}
+@keyframes cursor{
+50%{ border-color: white}
+}
+ @keyframes typing{
+from{width: 0}
+}
+
+
+
