@@ -63,7 +63,7 @@ overflow: hidden;
  @keyframes typing{
 from{width: 0}
 }
-@media screen and (min-width: 768px)
+/*@media screen and (min-width: 768px)
 .text{
     display: block;
   margin-top: 12%;
@@ -80,6 +80,6 @@ overflow: hidden;
 animation:
  typing 2s steps(14),
  cursor .4s step-end infinite alternate;
-}
+}*/
 
 
