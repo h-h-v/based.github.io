@@ -64,6 +64,23 @@ overflow: hidden;
  @keyframes typing{
 from{width: 0}
 }
-
+@media screen and (min-width: 1920px)
+.text{
+    display: block;
+  margin-top: 12%;
+  margin-left: auto;
+  margin-right: auto;
+color:white;
+font-size:12em;
+letter-spacing:5px;
+font-family:monospace;
+border-right: 5px solid;
+width: 70%;
+white-space:nowrap;
+overflow: hidden;
+animation:
+ typing 2s steps(14),
+ cursor .4s step-end infinite alternate;
+}
 
 
