@@ -64,7 +64,7 @@ overflow: hidden;
  @keyframes typing{
 from{width: 0}
 }
-@media screen and (min-width: 1920px)
+@media screen and (min-width: 768px)
 .text{
     display: block;
   margin-top: 12%;
