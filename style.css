@@ -97,6 +97,21 @@ white-space:nowrap;
 overflow: hidden;
 }
 }
+@media (min-width: @screen-sm-min) {
+   .text{ 
+  display: block;
+  margin-top: 12%;
+  margin-left: auto;
+  margin-right: auto;
+color:white;
+font-size:5em;
+letter-spacing:5px;
+font-family:monospace;
+border-right: 5px solid;
+white-space:nowrap;
+overflow: hidden;
+}
+}
 
 
 
