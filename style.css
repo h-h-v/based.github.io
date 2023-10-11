@@ -84,21 +84,20 @@ animation:
 }
 @media (max-width: @screen-xs-max) {
  .text{
-    display: block;
-  margin-top: 12%;
-  margin-left: auto;
-  margin-right: auto;
+ margin-left:15%;
 color:white;
-font-size:2em;
-letter-spacing:5px;
+font-size:3em;
+letter-spacing:10px;
 font-family:monospace;
-border-right: 5px solid;
-width: 70%;
-white-space:nowrap;
-overflow: hidden;
-animation:
- typing 2s steps(14),
- cursor .4s step-end infinite alternate;
+width: 60%;
+}
+.subtext{
+margin-left:15%;
+color:white;
+font-size:1em;
+letter-spacing:10px;
+font-family:monospace;
+width: 60%;
 }
 }
 @media (min-width: @screen-sm-min) {
