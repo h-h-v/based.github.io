@@ -62,8 +62,8 @@ overflow: hidden;
 }
  @keyframes typing{
 from{width: 0}
-}
-@media (min-width: @screen-md-min) {
+} 
+@media only screen and (max-width: 800px) {
 .text{
     display: block;
   margin-top: 12%;
