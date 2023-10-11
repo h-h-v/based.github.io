@@ -1,6 +1,6 @@
 .container{display: inline;}
 body {background-color: black;}
-.text{
+/*.text{
   margin-top: 12%;
   margin-left: auto;
   margin-right: auto;
@@ -15,7 +15,7 @@ overflow: hidden;
 animation:
  typing 2s steps(14),
  cursor .4s step-end infinite alternate;
-}
+}*/
 
 .subtext{
 margin-left:15%;
@@ -119,6 +119,26 @@ animation:
  cursor .4s step-end infinite alternate;
 }
 }
+@media (min-width: @screen-lg-min) {
+.text{
+    display: block;
+  margin-top: 12%;
+  margin-left: auto;
+  margin-right: auto;
+color:white;
+font-size:12em;
+letter-spacing:5px;
+font-family:monospace;
+border-right: 5px solid;
+width: 70%;
+white-space:nowrap;
+overflow: hidden;
+animation:
+ typing 2s steps(14),
+ cursor .4s step-end infinite alternate;
+}
+}
+
 
 
 
