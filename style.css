@@ -63,7 +63,7 @@ overflow: hidden;
  @keyframes typing{
 from{width: 0}
 }
-@media (min-width: @screen-md-min) {
+/*@media (min-width: @screen-md-min) {
 .text{
     display: block;
   margin-top: 12%;
@@ -81,7 +81,7 @@ animation:
  typing 2s steps(14),
  cursor .4s step-end infinite alternate;
 }
-}
+}*/
 @media (max-width: @screen-xs-max) {
   .text{ 
   display: block;
@@ -97,7 +97,7 @@ white-space:nowrap;
 overflow: hidden;
 }
 }
-@media (min-width: @screen-sm-min) {
+/*@media (min-width: @screen-sm-min) {
    .text{ 
   display: block;
   margin-top: 12%;
@@ -111,7 +111,7 @@ border-right: 5px solid;
 white-space:nowrap;
 overflow: hidden;
 }
-}
+}*/
 
 
 
